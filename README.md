@@ -27,7 +27,7 @@ framework中定义了三种绑定模式：双向绑定，视图到模型（单�
 
 # 如何使用该框架
 
-复制'framework.py'到你的项目中，参考[demo](https://github.com/noonbiteun/PyQt-MVVM/tree/master/demo)的即可快速搭建一个基于 MVVM 模式的GUI
+复制`framework.py`到你的项目中，参考[demo](https://github.com/noonbiteun/PyQt-MVVM/tree/master/demo)的代码即可快速搭建一个基于 MVVM 模式的GUI
 
 # demo效果
 ![image](https://github.com/noonbiteun/PyQt-MVVM/blob/master/demo.gif)

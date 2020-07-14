@@ -13,17 +13,18 @@
 """
 import sys
 
-from design.call.call_win import *
-from mvvm.vm import *
+from mvvm.binder import *
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
-    # 界面
-    ui_main_win = CallMainWin()
+    # ui
+    ui_main_win = MainWinView()
+    # vm
+    vm_main_win = MainWinVM()
 
-    # vm中进行逻辑绑定
-    vm_main_window = MainWindowVM(ui_main_win)
+    # 绑定
+    binding_main_ui(ui_main_win, vm_main_win)
 
     # show
     ui_main_win.show()

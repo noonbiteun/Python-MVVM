@@ -33,7 +33,7 @@ framework中定义了三种绑定模式：双向绑定，视图到模型（单�
 
 仓库中提供了一个本框架配合PyQt5进行GUI开发的demo，该demo中演示了仅需要在逻辑代码中更新model的值即可自动在界面上显示；
 
-参考[demo](https://github.com/noonbiteun/PyQt-MVVM/tree/master/demo)的代码即可快速搭建一个基于 MVVM 模式的GUI。
+参考[demo](https://github.com/noonbiteun/Python-MVVM/tree/master/demo)的代码即可快速搭建一个基于 MVVM 模式的GUI。
 
 # demo效果
-![image](https://github.com/noonbiteun/PyQt-MVVM/blob/master/demo.gif)
+![image](https://github.com/noonbiteun/Python-MVVM/blob/master/demo.gif)
